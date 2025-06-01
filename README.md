@@ -72,6 +72,29 @@ Exemplo de resposta:
 ![image](https://github.com/user-attachments/assets/2f801905-00d7-4a63-a298-7261722e0dd8)
 
 
+### Atualizar uma pessoa existente
+
+```http
+PUT /api/persons/{id}
+Content-Type: application/json
+```
+## Exemplo de corpo da requisição:
+{
+  "externalId": 2,
+  "imagePath": "imagens/novo_caminho.jpg",
+  "name": "Novo Nome",
+  "status": 1,
+  "identified": 1,
+  "ncep": "01234-567"
+}
+
+## Deletar uma pessoa
+
+DELETE /api/persons/{id}
+
+
+
+
 ## ✅ Consumo de API RESTful (ViaCEP)
 
 Ao consultar o CEP de uma pessoa, o sistema faz uma requisição HTTP GET à API ViaCEP, busca os dados do endereço e retorna em formato JSON.
