@@ -39,6 +39,27 @@ O sistema consome a API pública [ViaCEP](https://viacep.com.br/) para buscar in
 - `repository`  → Acesso ao banco de dados (`PersonRepository`)
 
 
+## 🔧 Funcionalidades CRUD implementadas
+
+![image](https://github.com/user-attachments/assets/fe5206a1-cfbd-4479-9c5d-f9a57eed7381)
+
+- **GET** `/api/persons`  
+  Lista todas as pessoas cadastradas.
+
+- **POST** `/api/persons`  
+  Adiciona uma nova pessoa.
+
+- **GET** `/api/persons/{id}`  
+  Consulta os dados de uma pessoa específica.
+
+- **PUT** `/api/persons/{id}`  
+  Atualiza os dados de uma pessoa.
+
+- **DELETE** `/api/persons/{id}`  
+  Remove uma pessoa do sistema.
+
+- **GET** `/api/persons/{id}/cep`  
+  Consulta o endereço da pessoa via API ViaCEP, usando o CEP cadastrado.
 
 
 ### Consultar todas as pessoas cadastradas
