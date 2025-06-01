@@ -43,4 +43,4 @@ graph TD;
     Controller-->Service;
     Service-->Repository;
     Service-->API[API Externa (ViaCEP)];
-    Repository-->Database[(Banco de Dados)];
+    Repository--> Database[(Banco de Dados)];
