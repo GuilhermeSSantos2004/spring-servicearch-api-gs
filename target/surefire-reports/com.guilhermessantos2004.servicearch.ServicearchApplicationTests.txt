@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.guilhermessantos2004.servicearch.ServicearchApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.599 s -- in com.guilhermessantos2004.servicearch.ServicearchApplicationTests

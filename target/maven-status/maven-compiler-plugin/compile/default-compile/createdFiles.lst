@@ -1,0 +1,6 @@
+com/guilhermessantos2004/servicearch/ServicearchApplication.class
+com/guilhermessantos2004/servicearch/service/ViaCepService.class
+com/guilhermessantos2004/servicearch/service/PersonService.class
+com/guilhermessantos2004/servicearch/controller/PersonController.class
+com/guilhermessantos2004/servicearch/repository/PersonRepository.class
+com/guilhermessantos2004/servicearch/model/Person.class
