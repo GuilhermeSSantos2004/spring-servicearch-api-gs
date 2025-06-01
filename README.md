@@ -14,10 +14,31 @@
 
 ## ✅ Descrição do Projeto
 
-Este projeto implementa uma API RESTful modular para gerenciar pessoas identificadas em imagens.  
-O sistema consome a API pública [ViaCEP](https://viacep.com.br/) para buscar informações de endereço a partir do CEP informado.
+Encontrar pessoas em ambientes escuros representa um grande desafio para equipes de resgate e monitoramento, principalmente à noite, quando a baixa visibilidade pode atrasar o socorro. Pensando nisso, este projeto complementa uma solução integrada, onde a identificação automática de pessoas é realizada por sistemas de visão computacional, como o projeto [detecao-pessoas-visao-noturna](https://github.com/GuilhermeSSantos2004/detecao-pessoas-visao-noturna).
+
+### Como funciona na prática
+
+O sistema de IA (por exemplo, usando MediaPipe Pose em Python) processa vídeos e detecta automaticamente pessoas em ambientes noturnos.  
+Cada pessoa encontrada é registrada nesta API, que serve como uma base central de informações, recebendo dados como imagem da pessoa, localização aproximada (CEP), status (ex.: viva, não identificada) e outras informações essenciais para buscas e futuras identificações.
 
 ---
+
+### 🎯 Objetivos do Projeto
+
+#### Centralização e Organização dos Dados
+- Esta API RESTful serve para organizar, centralizar e padronizar as informações de pessoas detectadas.  
+- Diversas aplicações – desde softwares de mapeamento 3D até plataformas de monitoramento e análise de resgates – podem consultar, cadastrar, atualizar ou remover registros com facilidade.
+- 
+#### Facilidade de Consulta e Integração
+- Os endpoints REST permitem que diferentes equipes e sistemas façam buscas rápidas, realizem análises ou exportem os dados.  
+- A integração com a API pública ViaCEP enriquece o registro ao trazer automaticamente informações detalhadas do endereço a partir do CEP informado.
+
+#### Escalabilidade e Reutilização
+- O projeto foi desenvolvido de forma modular, seguindo boas práticas de arquitetura (MVC).  
+- Isso permite integrá-lo facilmente em sistemas maiores, como aplicações de Defesa Civil, ONGs, órgãos públicos e plataformas de resgate – todos podem consumir os dados em tempo real, aumentando a eficiência do resgate e o uso inteligente dos recursos.
+
+---
+
 
 ## ✅ Requisitos Atendidos
 
