@@ -140,8 +140,8 @@ Pessoa faz requisição HTTP → Controller → Service → Repository/API → R
 ✅ Execução do Projeto
 1. Clonar o repositório:
 
-git clone https://github.com/seuusuario/seurepo.git
-cd seurepo
+- git clone https://github.com/seuusuario/seurepo.git
+- cd seurepo
 
 2. Executar:
 ./mvnw spring-boot:run
