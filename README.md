@@ -141,7 +141,6 @@ Pessoa faz requisição HTTP → Controller → Service → Repository/API → R
 1. Clonar o repositório:
 
 - git clone [https://github.com/GuilhermeSSantos2004/spring-servicearch-api-gs.git](https://github.com/GuilhermeSSantos2004/spring-servicearch-api-gs.git)
-- cd seurepo
 
 2. Executar:
 ./mvnw spring-boot:run
